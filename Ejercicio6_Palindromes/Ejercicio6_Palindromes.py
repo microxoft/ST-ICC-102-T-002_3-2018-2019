@@ -2,7 +2,6 @@ def EsPalindrome(palabra):
     for i in range(int(len(palabra)/2)):
         if palabra[i] != palabra[int(len(palabra)-1-i)]:
             return False
-
     return True
 
 palabra = input("Digite la palabra o frase: ")
